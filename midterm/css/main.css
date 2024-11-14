@@ -1,0 +1,30 @@
+/* #front-page{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../resources/image1.jpg');
+    background-repeat: no-repeat;   
+} */
+
+
+
+.scrollup{
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    background-color: hsl(var(230), 40%,20%);
+
+    padding: 6px;
+    display: inline-flex;
+    color: hsl(var(230),30%,95%);
+
+    font-size: 1.25rem;
+    box-shadow: 0 4px 12px hsla(var(230), 30%,8%, .3);
+    
+    z-index: 10;
+    transition: bottom .4s, transform .4s;
+}.scrollup:hover{
+    transform: translateY(-.5rem);
+}
